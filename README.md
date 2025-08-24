@@ -31,7 +31,8 @@ Server runs at: `http://localhost:4800`
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/product/add` | Add new product |
-| GET | `/api/product/list` | Get all products |
+| GET | `/api/product/getall` | Get all products |
+| GET | `/api/product/get/:id` | Get product |
 | PATCH | `/api/product/update/:id` | Update product |
 | DELETE | `/api/product/delete/:id` | Delete product |
 
@@ -39,7 +40,8 @@ Server runs at: `http://localhost:4800`
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/category/add` | Add new category |
-| GET | `/api/category/list` | Get all categories |
+| GET | `/api/category/getall` | Get all categories |
+| GET | `/api/category/get/:id` | Get category |
 | PATCH | `/api/category/update/:id` | Update category |
 | DELETE | `/api/category/delete/:id` | Delete category |
 
